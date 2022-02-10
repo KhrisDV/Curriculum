@@ -8,18 +8,20 @@ h1 {
     font-size: 4em  ;
 }
 
-h2 {
-  
-}
 .contenedor {
     border-style: solid;
 background-color: aquamarine;
     width: 80%;
-    margin: 10%;
+    margin: 7%;
+    position: relative;
+    bottom: 250px;
 }
 img {
     float: inline-end;
     height: 256px;
     width: 256px;
-
+    border-radius: 20%;
+    position: relative;
+    left: 1100px;
+    bottom: 240px;
 }
