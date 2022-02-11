@@ -17,11 +17,10 @@ background-color: aquamarine;
     bottom: 250px;
 }
 img {
-    float: inline-end;
     height: 256px;
     width: 256px;
     border-radius: 20%;
     position: relative;
-    left: 1100px;
-    bottom: 240px;
+    left: 830px;
+    bottom: 200px;
 }
