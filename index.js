@@ -1,16 +1,21 @@
-function imprimehola() {
-    console.log ("Hola");
-    }
+function main () {
+    console.log("Starting...");
 
+    const elements = Array.from(document.body.querySelectorAll("*"));
 
-function main (){
-console.log ("Starting");
-const titulo = document.querySelector ("h1");
-titulo.addEventListener("pointerenter", imprimehola);
-const elements = Array.from (document.body.querySelectorAll ("*")   
-);
-console.log (elements)
+    const counters = elements.map(
+        (item) => {
+            const obj = {
+                element: item,
+                counter: 0,
+            }
+            item.addEventListener("pointerenter",()=>{
+                obj.counter++;
+                console.log(obj)
+            });
+            return obj
+        }
+    )
 }
 
-
-window.addEventListener ("load", main)
+window.addEventListener("load", main);
