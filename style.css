@@ -10,7 +10,7 @@ h1 {
 
 .contenedor {
     border-style: solid;
-background-color: aquamarine;
+    background-color: aquamarine;
     width: 80%;
     margin: 7%;
     position: relative;
@@ -23,4 +23,9 @@ img {
     position: relative;
     left: 830px;
     bottom: 200px;
+}
+.Facebook {
+
+    height: 64px;
+    width: 64px;
 }
