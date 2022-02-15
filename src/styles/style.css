@@ -1,24 +1,22 @@
-h1 {font-size: 100px;
+h1 {
+    font-size: 100px;
     position: relative;
     border-style: solid;
     bottom: 40%;
     width: 50%;
     margin: 7%;
-    }
+}
 
 .avatar {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center ;
     height: 300px;
     width: 300px;
-    left: 1000px;
-    bottom: 230px;
-        }
+}
 
-
-body{
+body {
     background-color: blueviolet;
-    }
+}
 
 .contenedor {
     border-style: solid;
@@ -26,17 +24,15 @@ body{
     width: 80%;
     margin: 7%;
     bottom: 55%;
-    
-            }
-
+}
        
 h3 {
 font-style: italic;
-
 }
 
 footer {
 display: flex;
+border-style: solid black;
 background-color: brown;
 width: 80%;
 margin: 7%;
