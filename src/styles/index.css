@@ -1,0 +1,43 @@
+h1 {
+    border-block: solid black;
+    display: inline
+    bottom: 40%;
+    width: 50%;
+    margin: 7%;
+}
+
+header {
+    display: flex;
+    align-items: center;
+}
+
+.avatar {
+    display: flex;
+    height: 300px;
+    width: 300px;
+}
+
+body {
+    background-color: blueviolet;
+}
+
+.contenedor {
+    border-style: solid;
+    background-color: aquamarine;
+    width: 80%;
+    margin: 7%;
+    bottom: 55%;
+}
+       
+h3 {
+font-style: italic;
+}
+
+footer {
+display: flex;
+border-style: solid black;
+background-color: brown;
+width: 80%;
+margin: 7%;
+justify-content: space-around;
+}        

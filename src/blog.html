@@ -1,1 +1,79 @@
-<h1>Blog</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+</head>
+<body>
+    <div class="header">
+        <h2>Blog de Christian</h2>
+      </div>
+
+      <nav>
+              <a href="contact.html">Contact</a>
+              <a href="/src/index.html">Currículum</a>
+            </nav>
+            
+      <div class="noticias">
+        <div class="leftcolumn">
+          <div class="card">
+            <h2>La Xunta declara tres días de luto oficial y promete que la familias «non estarán sen amparo»</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum,
+                nisi lorem egestas vitae scel<span id="dots1">...</span><span id="more1">erisque enim ligula venenatis dolor.
+                Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet.
+                Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis.
+                Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta.</span></p>
+            <button onclick="esconder1()" id="myBtn1">Leer más</button>
+
+            <h2>Naufragio en Terranova: El tercer superviviente del Villa de Pitanxo es un marinero de Ghana</h2>
+                <p>El tercer superviviente del naufragio del Villa de Pitanxo, que se hundió en la madrugada del martes a 250 millas
+                    de Terranova, es un marinero de Ghana, según confirmó la conselleira de Mar, Rosa Quintana, en una entrevista con
+                    los medios públicos gallegos. <span id="dots2"></span>No ha trascendido, sin embargo, su identidad. Los otros dos profesionales que han sido
+                    rescatados con vida son Juan Padín, el patrón del barco, y su sobrino Eduardo Rial, ambos de Cangas.
+                    También se ha sabido que varios de los cuerpos recuperados por el Playa de Menduíña Dos, el Novo Virgem da Barca, el Franca Morte
+                    y la plataforma de apoyo canadiense Nexus han sido ya identificados, pero por ahora no han trascendido sus nombres.
+                    Entre los familiares cunde la desesperación porque a estas alturas todavía desconocen la suerte que han corrido sus allegados.
+                    Además de las tres personas que han sido rescatadas con vida, se han podido recuperar diez cuerpos y permanecen once marineros desaparecidos.
+                    ...</span><span id="more2">erisque enim ligula venenatis dolor.
+                Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet.
+                Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis.
+                Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta.</span></p>
+            <button onclick="esconder2()" id="myBtn2">Leer más</button>
+      
+      <script>
+          function esconder1() {
+                let dots1=document.getElementById("#dots1");
+                let boton1 = document.getElementById("myBtn1");
+                let muestra1 = document.getElementById("more1");
+
+              if (dots1.style.display === "none"){
+                  dots1.style.display = "inline";
+                  boton1.innerHTML = "Leer más";
+                  muestra1.style.display = "none"}
+             else {
+                      dots1.style.display = "none";
+                      boton1.innerHTML = "Leer menos";
+                      muestra1.style.display = "inline";
+                  }
+              }
+              function esconder2() {
+                let dots2=document.getElementById("dots2");
+                let boton2 = document.getElementById("myBtn2");
+                let muestra2 = document.getElementById("more2");
+
+              if (dots2.style.display === "none"){
+                  dots2.style.display = "inline";
+                  boton2.innerHTML = "Leer más";
+                  muestra2.style.display = "none"}
+             else {
+                      dots2.style.display = "none";
+                      boton2.innerHTML = "Leer menos";
+                      muestra2.style.display = "inline";
+                  }
+              }
+      </script>
+    </div>
+</body>
+</html>
