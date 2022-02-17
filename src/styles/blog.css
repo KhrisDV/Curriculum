@@ -1,0 +1,31 @@
+header {
+    display: flex;
+    border:solid darkred;
+    font-size: 4em;
+    background-color: teal;
+    align-content: center;
+    justify-content: center;
+}
+
+nav {
+    border: solid slateblue;
+    background-color: royalblue;
+    font-size: 2em;
+    text-align: center;
+
+}
+span {
+    display: none;
+}
+
+a {
+    margin: 4% 10%;
+    color: darkorange;
+    text-align: justify;
+}
+
+main {
+display: flex;
+flex direction: row;
+
+}

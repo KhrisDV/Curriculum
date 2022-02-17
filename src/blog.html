@@ -5,20 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog</title>
+    <link rel="stylesheet" href="/src/styles/blog.css">
 </head>
 <body>
-    <div class="header">
-        <h2>Blog de Christian</h2>
-      </div>
+    <header>
+        <h2>Blog de Jose Pérez</h2>
+    </header>
 
-      <nav>
-              <a href="contact.html">Contact</a>
-              <a href="/src/index.html">Currículum</a>
-            </nav>
-        
-      <div class="noticias">
-        <div class="leftcolumn">
-          <div class="card">
+    <nav>
+      <a href="contact.html">Contact</a>
+      <a href="/src/index.html">Currículum</a>
+      <a href="/src/blog.html"> Blog</a>
+    </nav>
+              
+      <main></main>
+        <div class="noticias">
             <h2>La Xunta declara tres días de luto oficial y promete que la familias «non estarán sen amparo»</h2>
             <p>El tercer superviviente del naufragio del Villa de Pitanxo, que se hundió en la madrugada del martes a 250 millas
               de Terranova, es un marinero de Ghana, según confirmó la conselleira de Mar, Rosa Quintana, en una entrevista con
@@ -35,8 +36,8 @@
               <button onclick="esconder1()" id="myBtn1">Leer más</button>
 
             <h2>Naufragio en Terranova: El tercer superviviente del Villa de Pitanxo es un marinero de Ghana</h2>
-                <p>El tercer superviviente del naufragio del Villa de Pitanxo, que se hundió en la madrugada del martes a 250 millas
-                de Terranova, es un marinero de Ghana, según confirmó la conselleira de Mar, Rosa Quintana, en una entrevista con
+            <p>El tercer superviviente del naufragio del Villa de Pitanxo, que se hundió en la madrugada del martes a 250 millas
+               de Terranova, es un marinero de Ghana, según confirmó la conselleira de Mar, Rosa Quintana, en una entrevista con
                 los medios públicos gallegos. <span id="dots2"></span>No ha trascendido, sin embargo, su identidad. Los otros dos profesionales que han sido
                 rescatados con vida son Juan Padín, el patrón del barco, y su sobrino Eduardo Rial, ambos de Cangas.
                 También se ha sabido que varios de los cuerpos recuperados por el Playa de Menduíña Dos, el Novo Virgem da Barca, el Franca Morte
@@ -60,9 +61,9 @@
                   boton1.innerHTML = "Leer más";
                   muestra1.style.display = "none"}
              else {
-                      dots1.style.display = "none";
-                      boton1.innerHTML = "Leer menos";
-                      muestra1.style.display = "inline";
+                  dots1.style.display = "none";
+                  boton1.innerHTML = "Leer menos";
+                  muestra1.style.display = "inline";
                   }
               }
               function esconder2() {
@@ -82,5 +83,16 @@
               }
       </script>
     </div>
+    
+    <aside>
+      <h2>Sections</h2>
+      <ul>
+        <li>Noticias</li>
+        <li>Locar</li>
+        <li>Deportes</li>
+        <li>Otros</li>
+      </ul>
+    </aside>
+  </main>
 </body>
 </html>
