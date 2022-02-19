@@ -1,0 +1,18 @@
+header {
+  background-color: blueviolet;
+  font-size: 2em;
+  color: darkred;
+  border: solid 15px black;
+  width: 92%;
+  text-align: center;
+}
+
+body {
+  background-image: url(/Curriculum/src/imagenes/contacto.jpg);
+  
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
