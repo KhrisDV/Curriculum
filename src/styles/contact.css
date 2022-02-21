@@ -15,6 +15,12 @@ nav {
   text-align: center;
 }
 
+a {
+  margin: 4% 10%;
+  color: darkorange;
+  text-align: justify;
+  }
+
 form {
   display: flex;
   flex-direction: column;
@@ -22,14 +28,8 @@ form {
   width: 50%;
 }
 
-a {
-  margin: 4% 10%;
-  color: darkorange;
-  text-align: justify;
-}
-
 body {
-  background-image: url(/src/imagenes/contacto.jpg);
+  background-image: url(../imagenes/contacto.jpg);
   
 }
 

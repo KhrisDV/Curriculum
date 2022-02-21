@@ -1,19 +1,19 @@
 header {
     display: flex;
     height: 200px;
-    border:solid darkred;
-    font-size: 4em;
+    border:solid 15px darkred;
+    font-size: 3em;
     background-color: teal;
-    align-content: center;
     justify-content: center;
-}
-
-nav {
+    text-align: center;
+  }
+  
+  nav {
     border: solid slateblue;
     background-color: royalblue;
     font-size: 2em;
     text-align: center;
-}
+  }
 
 .navegador {
     margin: 4% 10%;
@@ -21,6 +21,12 @@ nav {
     text-align: justify;
 }
 
+.avatar {
+  height: 200px;
+  width: 200px;
+  float: right;
+  margin: 50px 50px;
+}
 
 body {
     background-color: blueviolet;

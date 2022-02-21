@@ -1,32 +1,54 @@
 header {
     display: flex;
     height: 200px;
-    border:solid darkred;
-    font-size: 4em;
+    border:solid 15px darkred;
+    font-size: 3em;
     background-color: teal;
-    align-content: center;
     justify-content: center;
-}
-
-nav {
+    text-align: center;
+  }
+  
+  nav {
     border: solid slateblue;
     background-color: royalblue;
     font-size: 2em;
     text-align: center;
+  }
+  
+  a {
+    margin: 4% 10%;
+    color: darkorange;
+    text-align: justify;
+    }
 
+.noticias {
+  text-align: justify;
 }
+    
 span {
     display: none;
 }
 
-a {
-    margin: 4% 10%;
-    color: darkorange;
-    text-align: justify;
-}
 
 main {
 display: flex;
 flex direction: row;
+width: 75%;
 
 }
+
+aside {
+  text-align: center;
+  padding-left: 25%
+  
+  
+}
+
+footer {
+  display: flex;
+  border-style: solid black;
+  background-color: brown;
+  width: 90%;
+  margin: 7%;
+  justify-content: space-between;
+  }        
