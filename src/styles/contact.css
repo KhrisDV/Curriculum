@@ -1,18 +1,41 @@
 header {
-  background-color: blueviolet;
-  font-size: 2em;
-  color: darkred;
-  border: solid 15px black;
-  width: 92%;
+  display: flex;
+  height: 200px;
+  border:solid 15px darkred;
+  font-size: 3em;
+  background-color: teal;
+  justify-content: center;
   text-align: center;
 }
 
+nav {
+  border: solid slateblue;
+  background-color: royalblue;
+  font-size: 2em;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  width: 50%;
+}
+
+a {
+  margin: 4% 10%;
+  color: darkorange;
+  text-align: justify;
+}
+
 body {
-  background-image: url(/Curriculum/src/imagenes/contacto.jpg);
+  background-image: url(/src/imagenes/contacto.jpg);
   
 }
+
 
 main {
   display: flex;
   flex-direction: column;
+ 
 }

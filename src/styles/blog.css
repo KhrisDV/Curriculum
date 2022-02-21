@@ -1,5 +1,6 @@
 header {
     display: flex;
+    height: 200px;
     border:solid darkred;
     font-size: 4em;
     background-color: teal;

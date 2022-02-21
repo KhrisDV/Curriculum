@@ -1,21 +1,26 @@
-h1 {
-    border-block: solid black;
-    display: inline
-    bottom: 40%;
-    width: 50%;
-    margin: 7%;
-}
-
 header {
     display: flex;
-    align-items: center;
+    height: 200px;
+    border:solid darkred;
+    font-size: 4em;
+    background-color: teal;
+    align-content: center;
+    justify-content: center;
 }
 
-.avatar {
-    display: flex;
-    height: 300px;
-    width: 300px;
+nav {
+    border: solid slateblue;
+    background-color: royalblue;
+    font-size: 2em;
+    text-align: center;
 }
+
+.navegador {
+    margin: 4% 10%;
+    color: darkorange;
+    text-align: justify;
+}
+
 
 body {
     background-color: blueviolet;
@@ -29,9 +34,6 @@ body {
     bottom: 55%;
 }
        
-h3 {
-font-style: italic;
-}
 
 footer {
 display: flex;
