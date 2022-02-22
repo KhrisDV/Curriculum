@@ -15,7 +15,7 @@ header {
     text-align: center;
   }
   
-  a {
+  .navegador {
     margin: 4% 10%;
     color: darkorange;
     text-align: justify;
@@ -50,5 +50,5 @@ footer {
   background-color: brown;
   width: 90%;
   margin: 7%;
-  justify-content: space-between;
+  justify-content: space-around;
   }        
